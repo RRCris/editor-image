@@ -1,0 +1,24 @@
+.container{
+   
+   border-radius: 50%;
+   filter:drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+   cursor: pointer;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: transform .3s, color .3s, background-color .3s;
+}
+.container:hover{
+   transform: scale(1.1);
+}
+.container_off{
+   background-color: #FFF;
+   color:#E7E7E7
+}
+
+.container_on{
+   background-color: #F3F2F2;
+   color:#5E00A0
+}
+

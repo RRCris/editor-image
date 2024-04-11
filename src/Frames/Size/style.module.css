@@ -1,0 +1,27 @@
+.point{
+   width: 15px;
+   height: 15px;
+   background-color: lightcoral;
+   border-radius: 50%;
+   transform: translate(-50%,-50%);
+   border: 1px solid #000;
+  
+}
+
+.point:hover{
+   border: 3px solid #000;
+   
+}
+
+.container__element{
+   position: absolute;
+    outline: 3px solid lightcoral;
+   
+}
+
+.container__preview{
+   
+   pointer-events: none;
+   position: absolute;
+   outline: 4px dashed lightcoral;
+}

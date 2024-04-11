@@ -1,0 +1,13 @@
+.container__element{
+  
+   position: absolute;
+   width: fit-content;
+   outline-color: transparent;
+   outline: 4px solid transparent;
+   transition: outline-color .5s;
+   
+}
+
+.container__element:hover, .container__element:active{
+   outline-color: #f9bd02;
+}

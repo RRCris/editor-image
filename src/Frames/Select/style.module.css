@@ -1,0 +1,10 @@
+.container__element{
+   
+   position: absolute;
+   width: fit-content;
+   outline-color: transparent;
+   outline: 4px solid #cc9;
+   transition: outline-color .5s;
+   
+}
+

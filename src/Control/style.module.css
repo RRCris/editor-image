@@ -1,0 +1,80 @@
+.canvas{
+   background-color: #FFF;
+   position: relative; 
+   box-shadow: 10px 10px 10px #0005;
+}
+
+.container{
+   background-color: #0003;
+   display: flex;
+}
+
+.container_canvas{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-grow: 1;
+   padding: 30px;
+   position: relative;
+}
+
+.container_controls{
+   width: 350px;
+   background-color: #FBFBFB;
+}
+
+.container_controlCanvas{
+   position: absolute;
+   bottom: -20px;
+   left:0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   width: fit-content;
+   margin: 0 auto;
+}
+
+
+.container_inputFile{
+   background: #FFF3;
+   color: #5E00A0;
+   backdrop-filter: blur(10px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   z-index: 30;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   transition: opacity .5s;
+   border: 2px dashed #5E00A0;
+   cursor: pointer;
+}
+
+.container_inputFile .info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.info p{
+   font-size: 13px;
+   text-align: center;
+   user-select: none;
+}
+
+
+
+.container_preview{
+   position: absolute;
+   background-color:#5E00A033 ;
+   z-index: 30;
+
+}
+
+

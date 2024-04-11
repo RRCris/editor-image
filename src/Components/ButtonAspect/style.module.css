@@ -1,0 +1,30 @@
+.container{
+  width: 100px;
+  height: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:end;
+   
+   color:#7D7D7D;
+   background-color:#FBFBFB ;
+
+   transition: color .3s, background-color .3s, transform .5s;
+}
+.container *{
+  transition:  transform .5s;
+}
+.container:hover{
+   color:#5E00A0;
+   background-color:#F1F1F1 ;
+}
+.container:active *{
+   transform: scale(.8);
+}
+
+.icon{
+   border-style: dashed;
+   border-width: 2px;
+   border-radius: 3px;
+   margin-bottom:10px;
+}

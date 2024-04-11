@@ -1,0 +1,43 @@
+
+
+.container_inputFile{
+   background: #FFF3;
+   color: #5E00A0;
+   backdrop-filter: blur(10px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   z-index: 30;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   transition: opacity .5s;
+   border: 2px dashed #5E00A0;
+   cursor: pointer;
+}
+
+.container_inputFile .info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.info p{
+   font-size: 13px;
+   text-align: center;
+   user-select: none;
+}
+
+
+
+.container_preview{
+   position: absolute;
+   background-color:#5E00A033 ;
+   z-index: 30;
+
+}
+
+

@@ -1,0 +1,15 @@
+.container__element{
+   outline: 6px solid lightblue;
+   
+}
+
+.container__preview{
+   opacity: 0.5;
+   outline: 4px dotted lightblue;
+   width: fit-content;
+   height: fit-content;
+   position: absolute;
+   pointer-events: none;
+   cursor: grabbing;
+   
+}
